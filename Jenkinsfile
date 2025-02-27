@@ -68,7 +68,7 @@ pipeline {
         }
         stage('Dynamic') {
             when {
-                    branch 'feature/multi.*'
+                    branch 'feature/multi*'
             }
             steps {
                 
